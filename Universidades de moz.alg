@@ -53,6 +53,38 @@ inicio
                            Escreval ("3.Universidade Pedagogica")
                            Leia (Universidade)
                            
+                           Escolha Universidade
+                                   Caso 1
+                                        Escreval ("Na UniLurio de Cabo Delgado temos os seguintes cursos: ")
+                                        Escreval ("- Licenciatura em Engenharia Informatica")
+                                        Escreval ("- Licenciatura em Engenharia Civil")
+                                        Escreval ("- Licenciatura em Engenharia Geologica")
+                                        Escreval ("- Licenciatura em Engenharia Mecanica")
+                                        Escreval ("- Licenciatura em Ciencias Bilogicas")
+
+                                   Caso 2
+                                        Escreval ("Na UCM em Pemba temos os seguintes cursos: ")
+                                        Escreval ("- Licenciatura em Administracao Publica")
+                                        Escreval ("- Licenciatura em Contabilidade e Auditoria")
+                                        Escreval ("- Licenciatura em Direito")
+                                        Escreval ("- Licenciatura em Economia e Gestao")
+                                        Escreval ("- Licenciatura em Gestao de Recursos Humanos")
+                                        Escreval ("- Licenciatura em Gestao de Turismo e Hotelaria")
+                                        Escreval ("- Licenciatura em Gestao do Meio Ambiente e dos Recursos Naturais")
+                                        Escreval ("- Licenciatura em Gestao e Administracao Educacional")
+                                        Escreval ("- Licenciatura em Psicopedagogia e Ensino de Empreendedorismo")
+                                        Escreval ("- Licenciatura em Tecnologia de Informacao")
+                                        
+                                        Escreval ("**Mestrado**")
+                                        Escreval ("- Administrcao Publica")
+                                        Escreval ("- Desenvolvimento Economico Regional e Local")
+                                        Escreval ("- Desenvolvimento Sustentavel e Gestao de Turismo")
+                                        Escreval ("- Tecnologias de Informacao")
+
+                                   Caso 3
+                                        Escreval ("Na UP de Cabo Delgado temos os seguintes cursos: ")
+                                   FimEscolha
+                           
                       Caso 2
                            //Niassa
                            Escreval ("Na provincia de Niassa temos: ")
