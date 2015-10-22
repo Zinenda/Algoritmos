@@ -5,26 +5,37 @@ algoritmo "Escolha de Universidade"
 // Seção de Declarações 
 var
    Nome : caracter
-   Ensino_Secundario, Universidade,Regiao, Provincia, Curso, Idade, Deseja_Continuar : inteiro
+   Idade, Ensino_Secundario, Continuar, Regiao,Provincia, Universidade, Curso : inteiro
+   
    
 inicio
 // Seção de Comandos
    Escreval ("*** Seja muito Bem-Vindo ***")
+   Escreval ("Digite seu nome por favor: ")
+   Leia (Nome)
+   Escreval ("Agora digite sua idade: ")
+   Leia (Idade)
    Escreval ("Já ultimou o ensino Secundário?")
    Escreval ("1.SIM")
    Escreval ("2.NÃO")
    Leia (Ensino_Secundario)
    
    Se Ensino_Secundario = 1 Entao
-      Escreval ("Parabens por ter concluido o Ensino Secundário")
-      Escreval ("Agora o ajudaremos a escolher uma Universidade")
+      Escreval ("Parabens ", Nome, " Voce terminou o Ensino Medio")
+      Escreval ("Agora ajudaremos lhe a escolher a Universidade e o curso da sua preferencia")
       Escreval ("Deseja continuar?")
       Escreval ("1.SIM")
       Escreval ("2.NÃO")
-      Leia (Deseja_Continuar)
+      Leia (Continuar)
+      
+
+   SeNao Entao
+         Escreval ("Infelizmente não podemos ajudar-lo!")
+         Escreval ("Volte quando terminar o Ensino Secundario")
+   FIMSE
       
       // Opcao das Regioes a escolher
-      Se Deseja_Continuar = 1 Entao
+      Se Continuar = 1 Entao
          Escreval ("Escolha a Regiao do país gostaria de estudar: ")
          
          Escreval ("1.Região Norte")
@@ -187,9 +198,4 @@ inicio
            Escreval ("Obrigado Pela Sua Preferencia!")
            Escreval ("Volte Sempre")
       FimSe
-      
-   SeNao Entao
-         Escreval ("Infelizmente não podemos ajudar-lo!")
-         Escreval ("Volte quando terminar o Ensino Secundario")
-   FimSe
 fimalgoritmo
