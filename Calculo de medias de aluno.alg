@@ -5,8 +5,8 @@ algoritmo "Calculo de media de um alumo/estudante"
 // Email : izinenda@outlook.com
 var
    Nome_Aluno : caracter
-   Idade, Ano, Disciplinas, Repeticao  : inteiro
-   ACS1, ACS2, ACP1, ACP2, Media_ACS, Media_ACP, Media_Total, i : real
+   Idade, Ano, Disciplinas, i  : inteiro
+   ACS1, ACS2, ACP1, ACP2, Media_ACS, Media_ACP, Media_Total : real
 inicio
       Escreval ("Ola tudo bom, meu nome é Ivo Zinenda")
       Escreval ("Sou o criador deste algoritmo que ajudar-te-a a calcular sua media")
@@ -20,7 +20,7 @@ inicio
       Leia (Disciplinas)
       Escreval ("Seja Bem Vindo ", Nome_Aluno)
       
-      REPITA
+      PARA i de 1 ATE Disciplinas FACA
          Escreval ("PorFavor digite a nota da ACS1: ")
          Leia (ACS1)
          Escreval ("PorFavor digite a nota da ACS2: ")
@@ -49,7 +49,7 @@ inicio
               Escreval ("Infelizmente tu foste REPROVADO!")
               Escreval ("Sinto Muito! :(")
          FIMSE
-      ATE Repeticao = 6
+      FIMPARA
       Escreval ("Ja concluio o seus Calculos")
       Escreval ("Agradecemos pela Opcao, Volte Sempre")
 fimalgoritmo
